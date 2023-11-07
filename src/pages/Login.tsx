@@ -7,7 +7,6 @@ import PersonOutline from "@mui/icons-material/PersonOutline";
 import LockIcon from "@mui/icons-material/LockOutlined";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import logoimg from "../assets/finwarelogo-2.png";
 
 function Login() {
   const navigate = useNavigate();

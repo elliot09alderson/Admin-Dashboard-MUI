@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/_login.scss";
-import { Button } from "@mui/material";
 
 const OTPInput = () => {
   const [otp, setOtp] = useState(["", "", "", ""]);
