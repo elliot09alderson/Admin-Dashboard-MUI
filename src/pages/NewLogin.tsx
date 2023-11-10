@@ -38,7 +38,7 @@ function App() {
         <h2 className="text-white font-bold  text-2xl bg-[#0f172a] pt-6">
           {props.item.name}
         </h2>
-        <p className="text-white font-normal border-none outline-none text-md bg-[#0f172a]">
+        <p className="text-white font-normal border-none outline-none text-md bg-[#0f172a] pt-4">
           {props.item.description}
         </p>
       </Paper>
@@ -74,7 +74,7 @@ function App() {
             />
             <div className="text-center md:text-left">
               <button
-                className="bg-[#8b5cf6] hover:bg-purple-400 px-4 py-3 mt-4 text-white  rounded-lg text-md font-semibold tracking-wider w-full"
+                className="bg-[#8b5cf6] hover:bg-purple-400 px-4 py-3 mt-4 text-white  rounded-lg text-md font-semibold tracking-wider w-full focus:outline-none"
                 type="submit"
               >
                 Login
