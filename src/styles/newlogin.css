@@ -1,0 +1,4 @@
+.placeholder-style::placeholder {
+    color: #5c6a81; /* Adjust the color to your preference */
+    opacity: 1; /* Adjust the opacity to your preference */
+  }
