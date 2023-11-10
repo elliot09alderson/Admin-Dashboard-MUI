@@ -6,7 +6,7 @@ const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Products = lazy(() => import("./pages/Products"));
 const Customers = lazy(() => import("./pages/Customers"));
 const Transaction = lazy(() => import("./pages/Transaction"));
-const Login = lazy(() => import("./pages/Login"));
+const Login = lazy(() => import("./pages/NewLogin"));
 const OTP = lazy(() => import("./pages/OTPScreen"));
 
 function App() {
